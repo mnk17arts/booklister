@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKs | MNK17ARTS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img.png" />
+    
+</head>
+<body>
+    <div class="container">
+        <!-- date and time -->
+        <div class="date-time t-a-c">
+            <p id="date">Jan 2, 10:55 AM</p>
+        </div>
+        <div class="app-heading">
+            <p class="t-a-c">My<span style="color: orangered;">BOOK</span>list<p>
+        </div>
+        <div class="form-container">
+            <form action="" id="book-form" class="form">
+                <div class="form-control">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" placeholder="Enter Book Title">
+                </div>
+                <div class="form-control">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" placeholder="Enter Author Name">
+                </div>
+                <div class="form-control">
+                    <label for="isbn">ISBN</label>
+                    <input type="text" id="isbn" placeholder="Enter ISBN Number">
+                </div>
+                <div class="form-control">
+                    <button type="submit" class="btn">Add Book</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="book-table t-a-c">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="book-list">
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+    <div class="made-by">
+        <p class="t-a-c">Made with <span style="color: red;font-size: larger;">&hearts;</span> by <a href="https://mnk17arts.github.io" target="_blank"> @mnk17arts </a></p>
+    </div>
+   
+    
+<script src="app.js"></script>    
+</body>
+</html>
